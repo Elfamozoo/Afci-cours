@@ -1,0 +1,139 @@
+/*------------
+    Header
+--------------*/
+body {
+    background-color: rgb(201, 201, 201);
+}
+
+
+.mainpage {
+    background-color: white;
+    width: 50%;
+    height: 180vh;
+    margin: 20px auto 20px auto;
+    border: grey 1px solid;
+    border-radius: 1%;
+
+}
+
+.marge {
+    padding: 15px 10px  10px;
+    
+}
+
+.imagebandeau {
+    width: 100%;
+}
+
+.johncena li {
+    display: inline;
+    padding: 5px;
+    border-radius: 5%;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 200ms;
+    transition-timing-function: linear;
+    
+}
+
+.johncena ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.johncena li:hover {
+    display: inline;
+    
+}
+
+.johncena a {
+    text-decoration: none;
+    color: blue;
+    background-color:white;
+
+}
+
+.johncena li:hover a{
+    color:black;
+    background-color: beige;
+}
+
+
+
+/*----------------
+contain
+------------------*/
+
+.contain{
+    width: 100%;
+
+
+}
+
+/*----------------
+menu sur la gauche
+------------------*/
+
+
+.menuGauche {
+    width: 20%;
+}
+
+
+.menuGauche ul{
+    padding-left: 12px;
+}
+
+
+.menuGauche a {
+    color: white;
+    line-height: 7mm;
+    text-decoration: none;
+    display: block;
+    margin: none;
+}
+
+
+.menuGauche a:hover {
+    color:black;
+    background-color: beige;
+}
+
+
+.menuGauche li {
+    list-style: none;
+}
+
+
+.idf, .hdf, .inscrire, .outils, .mention {
+    border-radius: 10%;
+    background-color: rgb(42, 40, 196);
+    background-image: linear-gradient(#2A628F,#13293D);
+    min-width: 150px;
+    max-width: 150px;
+}
+
+/*Texte principal*/
+
+.texteprin{
+   width: 75%;
+   padding-left: 20px;
+   text-justify: center;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.texteprin h1{
+    color: cyan;
+    text-align: center;
+    
+}
+
+.texteprin,.menuGauche{
+    float: left;
+}
+
+
+
+
+
+
